@@ -69,7 +69,7 @@ const Footer = () => {
         <div className="container" id="last">
           <div className="headings">NewsLetter</div>
           <span className="content">Stay Updated with our Latest News </span>
-          <div>
+          <div className="input_field">
             <input className="email" placeholder={placeholder} />
             <img className="img_arrow" type="button" src={EmailImg} />
           </div>

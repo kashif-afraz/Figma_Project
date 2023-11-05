@@ -1,71 +1,34 @@
-import "./AfterHeader.css";
-import vector from "../assets/Vector.png";
-import girl1st from "../assets/AfterHeader girl.png";
-import AfterHeaderChild from "./AfterHeaderChild";
-const AfterHeader = () => {
-  // const cardData =[{
-  //   heading: 'kashf',
-  //   content: "asjdhas"
-  // },{
-  //   heading: 'kashf',
-  //   content: "asjdhas"
-  // },{
-  //   heading: 'kashf',
-  //   content: "asjdhas"
-  // },{
-  //   heading: 'kashf',
-  //   content: "asjdhas"
-  // }];
+import React from 'react'
+import './AfterHeader.css';
+
+const AfterHeaderChild = (props) => {
 
   return (
-    <div className="start">
-      <div className="heading_after_header">
-        <div className="box">
-          Dental Excellence Starts Here: Your Guide to a Brighter, Healthier
-          <div>Smile</div>
-        </div>
-
-        <div className="nav_button_after">
-          <button className="Button_inner">
-            <span className="button_span">Contact Us </span>
-            <img
-              className="arrow_img"
-              src={vector}
-              alt="vector arrow img"
-            ></img>
-          </button>
-        </div>
-      </div>
-
-      <img className="img_after_header" src={girl1st} alt="girl image" />
-
-      {/* <AfterHeaderChild data ={cardData}/> */}
-
-      <div className="card_after">
-          <div className="card_num">
-            <div className="card_inner">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="85"
-                height="86"
-                viewBox="0 0 85 86"
-                fill="none"
-              >
-                <path
-                  d="M74.375 28.7166C76.2536 28.7166 78.0553 29.4628 79.3836 30.7912C80.712 32.1196 81.4583 33.9213 81.4583 35.7999V49.9666C81.4583 51.8452 80.712 53.6469 79.3836 54.9752C78.0553 56.3036 76.2536 57.0499 74.375 57.0499H70.6137C69.7503 63.897 66.4178 70.1937 61.2416 74.7582C56.0654 79.3228 49.4013 81.8415 42.5 81.8416V74.7582C48.1358 74.7582 53.5408 72.5194 57.526 68.5343C61.5111 64.5491 63.75 59.1441 63.75 53.5082V32.2582C63.75 26.6224 61.5111 21.2174 57.526 17.2322C53.5408 13.2471 48.1358 11.0082 42.5 11.0082C36.8641 11.0082 31.4591 13.2471 27.4739 17.2322C23.4888 21.2174 21.25 26.6224 21.25 32.2582V57.0499H10.625C8.74634 57.0499 6.94467 56.3036 5.61629 54.9752C4.2879 53.6469 3.54163 51.8452 3.54163 49.9666V35.7999C3.54163 33.9213 4.2879 32.1196 5.61629 30.7912C6.94467 29.4628 8.74634 28.7166 10.625 28.7166H14.3862C15.2505 21.8702 18.5834 15.5744 23.7595 11.0106C28.9356 6.44685 35.5992 3.92871 42.5 3.92871C49.4007 3.92871 56.0643 6.44685 61.2404 11.0106C66.4166 15.5744 69.7494 21.8702 70.6137 28.7166H74.375ZM27.4833 56.2884L31.2375 50.2818C34.6129 52.3963 38.5169 53.5147 42.5 53.5082C46.483 53.5147 50.387 52.3963 53.7625 50.2818L57.5166 56.2884C53.0161 59.1081 47.8108 60.5997 42.5 60.5916C37.1891 60.5999 31.9838 59.1083 27.4833 56.2884Z"
-                  fill="#75B8EE"
-                />
-              </svg>
-              <span className="after_svg_heading">Free Consultation</span>
-              <span className="after_svg_paragraph">
-                We offer flexible appointment scheduling and free to accommodate
-                your busy life
-              </span>
-            </div>
+    <div className="card_after">
+        {props.data?.map((data)=>(<div className="card_num">
+          <div className="card_inner">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="85"
+              height="86"
+              viewBox="0 0 85 86"
+              fill="none"
+            >
+              <path
+                d="M74.375 28.7166C76.2536 28.7166 78.0553 29.4628 79.3836 30.7912C80.712 32.1196 81.4583 33.9213 81.4583 35.7999V49.9666C81.4583 51.8452 80.712 53.6469 79.3836 54.9752C78.0553 56.3036 76.2536 57.0499 74.375 57.0499H70.6137C69.7503 63.897 66.4178 70.1937 61.2416 74.7582C56.0654 79.3228 49.4013 81.8415 42.5 81.8416V74.7582C48.1358 74.7582 53.5408 72.5194 57.526 68.5343C61.5111 64.5491 63.75 59.1441 63.75 53.5082V32.2582C63.75 26.6224 61.5111 21.2174 57.526 17.2322C53.5408 13.2471 48.1358 11.0082 42.5 11.0082C36.8641 11.0082 31.4591 13.2471 27.4739 17.2322C23.4888 21.2174 21.25 26.6224 21.25 32.2582V57.0499H10.625C8.74634 57.0499 6.94467 56.3036 5.61629 54.9752C4.2879 53.6469 3.54163 51.8452 3.54163 49.9666V35.7999C3.54163 33.9213 4.2879 32.1196 5.61629 30.7912C6.94467 29.4628 8.74634 28.7166 10.625 28.7166H14.3862C15.2505 21.8702 18.5834 15.5744 23.7595 11.0106C28.9356 6.44685 35.5992 3.92871 42.5 3.92871C49.4007 3.92871 56.0643 6.44685 61.2404 11.0106C66.4166 15.5744 69.7494 21.8702 70.6137 28.7166H74.375ZM27.4833 56.2884L31.2375 50.2818C34.6129 52.3963 38.5169 53.5147 42.5 53.5082C46.483 53.5147 50.387 52.3963 53.7625 50.2818L57.5166 56.2884C53.0161 59.1081 47.8108 60.5997 42.5 60.5916C37.1891 60.5999 31.9838 59.1083 27.4833 56.2884Z"
+                fill="#75B8EE"
+              />
+            </svg>
+            <span className="after_svg_heading">{data.heading}</span>
+            <span className="after_svg_paragraph">
+              We offer flexible appointment scheduling and free to accommodate
+              your busy life
+            </span>
           </div>
+        </div>))}
+        
 
-
-        <div className="card_num">
+        {/* <div className="card_num">
           <div className="card_inner">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -133,11 +96,10 @@ const AfterHeader = () => {
               Our compassionate team is dedicated to making your dental
               experience as comfortable and stress-free as possible
             </span>
-          </div> 
-        </div> 
+          </div> */}
+        {/* </div> */}
       </div>
-    </div>
-  );
-};
+  )
+}
 
-export default AfterHeader;
+export default AfterHeaderChild
