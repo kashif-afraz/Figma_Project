@@ -1,0 +1,82 @@
+.start {
+  font-family: "Poppins";
+  margin-left: 125px;
+  margin-top: 90px;
+  display: inline-flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: 1178px;
+  height: 1089px;
+}
+
+/* .after_header {
+  width: 1178px;
+  height: 878px;
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;
+} */
+/* 
+.heading_after_header {
+  width: 809px;
+   height: 40px; 
+  width: 1178px;
+  height: 878px;
+  color: #1e1e1e;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+} */
+
+/* .img_after_header_div {
+  width: 110px;
+  height: 622px;
+} */
+
+/* .img_after_header {
+  width: 110px;
+  height: 622px;
+  width: 596.855px;
+  height: 622px;
+  left: 60%;
+  padding-top: 0%;
+} */
+
+.heading_after_header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 669px;
+  height: 444px;
+}
+
+.box {
+  color: #1e1e1e;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav_button_after {
+  margin-left: 0px;
+}
+
+.Button_inner {
+  padding: 0 30px;
+  height: 75px;
+  justify-content: left;
+  border-radius: 50px;
+  margin-left: 0px;
+  border: 2px solid #89db7b;
+  background-color: #89db7b;
+}
+
+.img_after_header {
+  width: 596.855px;
+  height: 622px;
+}

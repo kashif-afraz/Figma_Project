@@ -1,8 +1,9 @@
 nav {
   display: flex;
-  padding: 20px 0%;
+  padding: 20px 7%;
   align-items: center;
   font-family: 'Poppins';
+  
 }
 
 .nav_logo {
@@ -15,7 +16,7 @@ nav {
   margin-right: 79px;
 }
 
-span {
+.D {
   color: #89db7b;
   font-size: 24px;
   font-style: normal;
@@ -62,7 +63,7 @@ a {
   letter-spacing: 0.5px;
 }
 
-img {
+.arrow_img {
   width: 15px;
   height: 15px;
 }

@@ -1,0 +1,133 @@
+.footer_div {
+  display: flex;
+  font-family: "Poppins";
+  width: 1442px;
+  padding: 50px 130px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px;
+}
+
+.footer_logo {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  margin-bottom: 42px;
+}
+
+.D {
+  color: #89db7b;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+}
+
+/* .container_head{
+    flex-direction: row;
+
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 114px;
+}
+
+.headings {
+  margin-bottom: 30px;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.34px;
+}
+
+.content_head {
+  color: #ff7d61;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.198px;
+  margin-bottom: 20px;
+}
+
+.content {
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.198px;
+  margin-bottom: 20px;
+}
+
+.content_address {
+  width: 245px;
+  color: #1e1e1e;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.198px;
+  margin-bottom: 15px;
+}
+
+#map {
+  margin-bottom: 47px;
+}
+
+/* .container_last{
+    flex-direction: column;
+  margin:auto;
+} */
+
+#last {
+  margin-right: 0px;
+  /* width: 305px; */
+}
+
+.email {
+  width: 306px;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #1e1e1e;
+  padding: 10px;
+  font-size: 21px;
+  margin-top: 6px;
+  margin-bottom: 80px;
+}
+
+::placeholder {
+  color: #1e1e1e;
+  font-family: "General Sans";
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.357px;
+}
+
+.img_arrow {
+  position: static;
+  left: 1310px;
+  top: 370px;
+  width: 67px;
+  height: 45px;
+}
+
+svg{
+    margin-right: 18px;
+}
+
+
+.container_head{
+  display: flex;
+  flex-direction: row;
+}

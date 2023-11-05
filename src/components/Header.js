@@ -1,10 +1,10 @@
 import "./Header.css";
-import vector from '../assets/Vector.png'
+import vector from "../assets/Vector.png";
 const Header = () => {
   return (
     <nav>
       <div className="nav_logo">
-        57<span>D</span>entcare
+        57<span className="D">D</span>entcare
       </div>
       <div className="nav_links">
         <div>
@@ -16,7 +16,10 @@ const Header = () => {
         </div>
       </div>
       <div className="nav_button">
-        <button className="Button"><span className="button_span">Contact Us </span><img src={vector} alt="vector arrow img"></img></button>
+        <button className="Button">
+          <span className="button_span">Contact Us </span>
+          <img className="arrow_img" src={vector} alt="vector arrow img"></img>
+        </button>
       </div>
     </nav>
   );
