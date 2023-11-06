@@ -1,0 +1,19 @@
+.what_container {
+  margin-left: 5%;
+  width: 269%;
+  height: 60%;
+  margin-bottom: 8%;
+}
+
+.what_image {
+  margin: auto;
+  width: 30%;
+  height: 1000%;
+}
+/* .what_inner_frame {
+  display: flex;
+  padding: 0px 0px 100px 150px;
+  flex-direction: column;
+  align-items: center;
+  gap: 109px;
+} */

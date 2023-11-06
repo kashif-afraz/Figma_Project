@@ -20,6 +20,9 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img0" src={serviceImage1} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
 
@@ -30,9 +33,11 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img2" src={serviceImage2} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
-
 
         <div className="services_cards">
           <div className="services_card_inner">
@@ -41,11 +46,12 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img2" src={serviceImage3} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
-
       </div>
-
 
       <div className="services_card_container">
         <div className="services_cards">
@@ -55,6 +61,9 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img2" src={serviceImage4} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
 
@@ -65,9 +74,11 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img3" src={serviceImage5} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
-
 
         <div className="services_cards">
           <div className="services_card_inner">
@@ -76,14 +87,13 @@ const Services = () => {
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
             <img className="services_card_img4" src={serviceImage6} alt="" />
+            <button className="service_btn">
+              <div className="service_button_contetnt">Read More</div>
+            </button>
           </div>
         </div>
-
       </div>
     </div>
-
-
-
   );
 };
 
