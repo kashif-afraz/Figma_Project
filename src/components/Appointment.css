@@ -27,6 +27,72 @@
   height: 502px;
 }
 
-.appointment_form{
-  
+.appointment_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+  width: 582px;
+  height: 371px;
+}
+
+.appointment_heading {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.appointment_form_input {
+  display: flex;
+  flex-direction: row;
+  gap: 26.5px;
+  align-items: flex-start;
+}
+.appointment_input {
+  width: 250px;
+  height: 55px;
+  border-radius: 30px;
+  border: 1px solid #939394;
+  padding: 10px;
+  font-size: 21px;
+  /* margin-top: 6px;
+  margin-bottom: 80px; */
+}
+.appointment_input::placeholder {
+  color: #939394;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.appointment_btn {
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #89db7b;
+  background: #89db7b;
+  box-shadow: 4px 4px 30px 0px #89db7b;
+  height: 50px;
+}
+
+.appointment_btn_content {
+  color: #1e1e1e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  position: relative;
+}
+
+.appointment_arrow_img {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 26rem;
+  top: 0.2rem;
 }
