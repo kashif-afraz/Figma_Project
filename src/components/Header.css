@@ -1,11 +1,19 @@
 nav {
   display: flex;
   /* padding: 20px 7%;*/
-  align-items: center; 
-  font-family: 'Poppins';
+  align-items: center;
+  font-family: "Poppins";
   margin: auto;
   width: 90%;
-  
+}
+
+.drop_down_button {
+  visibility: hidden;
+}
+
+.drop_down_ul{
+  list-style: none;
+  background-color: rgb(180, 168, 168)
 }
 
 .nav_logo {
@@ -15,7 +23,7 @@ nav {
   font-weight: 600;
   line-height: normal;
   letter-spacing: 0.5px;
-  margin-right: 79px;
+  margin-right: 59px;
 }
 
 .D {
@@ -68,4 +76,42 @@ a {
 .arrow_img {
   width: 15px;
   height: 15px;
+}
+
+@media screen and (max-width: 413px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    height: -10%;
+    align-items: flex-start;
+    font-family: "Poppins";
+  }
+  .nav_logo {
+    color: #1e1e1e;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-right: -130%;
+    margin-bottom: -150px;
+    
+  }
+
+.drop_down_ul{
+ border-radius: 19px;
+ margin-top: -1%;
+}
+
+  .nav_button {
+    visibility: hidden;
+  }
+  .nav_links {
+    visibility: hidden;
+  }
+
+  .drop_down_button {
+    visibility: visible;
+    /* margin-bottom: -30%; */
+  }
 }

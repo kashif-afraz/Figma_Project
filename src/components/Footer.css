@@ -126,12 +126,22 @@
   width: 67px;
 }
 
-svg{
-    margin-right: 18px;
+svg {
+  margin-right: 18px;
 }
 
-
-.container_head{
+.container_head {
   display: flex;
   flex-direction: row;
+}
+
+@media screen and (max-width: 417px) {
+  .container_head {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_arrow {
+    right: 2.4rem;
+    top: 0.8rem
+  }
 }

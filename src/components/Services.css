@@ -121,3 +121,23 @@
   line-height: normal;
   letter-spacing: -0.154px;
 }
+
+@media screen and (max-width: 413px){
+  .services_h2 {
+    color: #1e1e1e;
+    font-size: 20px;
+  }
+  .services_card_container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: -19%;
+  }
+  .services_cards {
+    width: 370px;
+    height: 300px;
+    margin-bottom: 5%;
+   /* margin: auto; */
+  }
+
+}

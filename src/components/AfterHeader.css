@@ -5,7 +5,6 @@
   width: 90%;
   display: flex;
   flex-direction: column;
-  
   position: relative;
 }
 
@@ -95,4 +94,47 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+
+@media screen and (max-width: 413px) {
+  .box {
+    color: #1e1e1e;
+    font-size: 24px;
+    width: 30%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    z-index: 1;
+  } 
+
+  .img_after_header {
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    margin-left: 190px;
+    top: -4%;
+  }
+
+  .Button_inner {
+    display: flex;
+    padding: 10px 30px;
+    height: 75px;
+    width: 80%;
+  }
+  .arrow_img{
+    margin-top:15%
+  }
+
+  .card_after {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: -10px;
+    gap: 38px;
+    z-index: 1;
+  }
+
 }

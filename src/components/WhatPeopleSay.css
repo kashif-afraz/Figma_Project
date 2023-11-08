@@ -18,3 +18,20 @@
   align-items: center;
   gap: 109px;
 } */
+
+
+@media screen and (max-width: 417px){
+  .what_container {
+    margin-left: 5%;
+    width: 380%;
+    height: 60%;
+    /* margin-bottom: 8%; */
+  }
+  
+  .what_image {
+    margin: auto;
+    margin-left: 1rem;
+    width: 30%;
+    height: 1000%;
+  }
+}
