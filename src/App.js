@@ -11,7 +11,7 @@ import WhyChoose from "./components/WhyChoose";
 function App() {
 
   return (
-    <main >
+    <div className='main' >
       <Header/>
       <AfterHeader/>
       <Services />
@@ -20,7 +20,7 @@ function App() {
       <WhatPeopleSay />
       <Appointment />
       <Footer />
-    </main>
+    </div>
   );
 }
 

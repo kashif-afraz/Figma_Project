@@ -1,9 +1,11 @@
 .services_body {
   display: flex;
-  padding: 100px 80px;
+  /* padding: 100px 80px; */
+  padding: 8% 0%;
   flex-direction: column;
   font-family: "Poppins";
-  width: 80%;
+  width: 100%;
+  margin: auto;
 }
 .services_h1 {
   text-align: center;
@@ -28,7 +30,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 26px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .services_cards {
@@ -79,27 +83,29 @@
 
 .services_card_img0 {
   position: absolute;
-  left: 246px;
+  left: 136%;
 }
 
 .services_card_img1 {
   position: absolute;
-  left: 203px;
+  left: 112%;
 }
 
 .services_card_img2 {
   position: absolute;
-  left: 176px;
+  left: 96%
 }
 
 .services_card_img3 {
   position: absolute;
-  left: 119px;
+  left: 66%;
 }
 
 .services_card_img4 {
   position: absolute;
-  left: 156px;
+  width: 110%;
+  left: 98%;
+  top: 20%;
 }
 
 .service_btn {
@@ -114,7 +120,6 @@
 .service_button_contetnt {
   color: #1e1e1e;
   text-align: center;
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -123,6 +128,10 @@
 }
 
 @media screen and (max-width: 413px){
+  .services_body {
+    width: 100%;
+    margin: auto;
+  }
   .services_h2 {
     color: #1e1e1e;
     font-size: 20px;
@@ -130,14 +139,39 @@
   .services_card_container {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    margin-left: -19%;
   }
   .services_cards {
-    width: 370px;
+    width: 100%;
     height: 300px;
     margin-bottom: 5%;
-   /* margin: auto; */
+  }
+  .services_card_img0 {
+    position: absolute;
+    left: 100%;
+  }
+  
+  .services_card_img1 {
+    position: absolute;
+    left: 80%;
+  }
+  
+  .services_card_img2 {
+    position: absolute;
+    left: 80%;
+    width:95%
+  }
+  
+  .services_card_img3 {
+    position: absolute;
+    left: 62%;
+    width:110%
+  }
+  
+  .services_card_img4 {
+    position: absolute;
+    width: 90%;
+    left: 80%;
+    top: 20%;
   }
 
 }

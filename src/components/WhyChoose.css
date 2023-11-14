@@ -1,33 +1,30 @@
 .why_container {
-  /* position: relative; */
+  position: relative;
   font-family: "Poppins";
-  display: flex;
-  flex-direction: row;
-  padding: 100px 120px;
+  /* display: flex;
+  flex-direction: row; */
+  padding: 100px 0px 120px;
   margin: auto;
-  width: 100%;
-  height: 600px;
-  /* align-items: center; */
+  width: 90%;
   align-items: flex-start;
-  gap: -10%;
-  margin-left: -2%;
+  /* margin-left: -2%; */
 }
 
 .why_img {
+  position: absolute;
+  margin-left:70%;
+  margin-top: -47%;
   width: 30%;
-  /* position: absolute; */
-  /* left:10rem; */
-  right: 31rem;
 }
 
 .why_content {
-  position: relative;
   display: flex;
   flex-direction: column;
-  width: 571px;
+  /* width: 571px; */
+  
   padding-bottom: 0px;
   flex-direction: column;
-  width: 50%;
+  width: 90%;
 }
 
 .why_us {
@@ -55,8 +52,8 @@ ul {
   margin-left: -2%;
 }
 .why_li {
-  width: 535px;
-  height: 68px;
+  width: 70%;
+  height: 70px;
 }
 
 li::marker {
@@ -84,14 +81,14 @@ li::marker {
 
   .why_container {
     position: relative;
-
+    width: 100%;
+    margin: auto;
     flex-direction: column;
   }
 
   .why_content {
     flex-direction: column;
     width: 50%;
-    margin-left: -10%;
   }
 
   .why_heading {
@@ -128,8 +125,9 @@ li::marker {
 
   .why_img {
     width: 15%;
-    margin-top: 4rem;
-    left: 15%;
+    bottom: 73%;
+    /* left: 15%; */
+    right: 80%;
     position: absolute;
   }
 }

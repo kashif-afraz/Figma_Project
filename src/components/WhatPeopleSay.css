@@ -1,37 +1,25 @@
 .what_container {
-  margin-left: 5%;
-  width: 269%;
-  height: 60%;
+  margin: auto;
+  width: 90%;
   margin-bottom: 8%;
 }
 
 .what_image {
   margin: auto;
-  margin-left: 1rem;
-  width: 30%;
-  height: 1000%;
+  width: 100%;
 }
-/* .what_inner_frame {
-  display: flex;
-  padding: 0px 0px 100px 150px;
-  flex-direction: column;
-  align-items: center;
-  gap: 109px;
-} */
 
 
 @media screen and (max-width: 417px){
   .what_container {
-    margin-left: 5%;
-    width: 380%;
+    width: 100%;
+    margin: auto;
     height: 60%;
-    /* margin-bottom: 8%; */
+    margin-bottom: 8%;
   }
   
   .what_image {
     margin: auto;
-    margin-left: 1rem;
-    width: 30%;
-    height: 1000%;
+    width: 100%;
   }
 }

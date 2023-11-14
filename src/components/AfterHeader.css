@@ -98,10 +98,24 @@
 
 
 @media screen and (max-width: 413px) {
+  .start {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+  }
+ 
+  .heading_after_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 60%;
+  }
   .box {
     color: #1e1e1e;
     font-size: 24px;
-    width: 30%;
+    width: 100%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -109,7 +123,7 @@
   } 
 
   .img_after_header {
-    width: 80%;
+    width: 50%;
     height: 30%;
     position: absolute;
     margin-left: 190px;
@@ -127,12 +141,11 @@
   }
 
   .card_after {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center;
     margin: auto;
-    margin-top: -10px;
     gap: 38px;
     z-index: 1;
   }

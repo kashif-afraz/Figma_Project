@@ -32,7 +32,7 @@ const Services = () => {
             <div className="services_card_h2">
               Cosmetic treatment to enhance the whiteness of teeth
             </div>
-            <img className="services_card_img2" src={serviceImage2} alt="" />
+            <img className="services_card_img1" src={serviceImage2} alt="" />
             <button className="service_btn">
               <div className="service_button_contetnt">Read More</div>
             </button>
