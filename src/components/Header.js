@@ -13,13 +13,11 @@ const Header = () => {
         57<span className="D">D</span>entcare
       </div>
       <div className="nav_links">
-        <div>
           <a href="..">Home</a>
           <a href="..">Service</a>
           <a href="..">About Us</a>
           <a href="..">Why Choose Us</a>
           <a href="..">Testimonials</a>
-        </div>
       </div>
       
       <div className="nav_button">

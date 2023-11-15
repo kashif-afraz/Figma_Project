@@ -1,10 +1,10 @@
 .start {
   font-family: "Poppins";
-  margin: auto;
-  margin-top: 90px;
-  width: 90%;
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
+  margin-top: 90px;
   position: relative;
 }
 
@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 50px;
-  width: 669px;
+  width: 40%;
   height: 444px;
 }
 
@@ -28,6 +28,11 @@
 
 .nav_button_after {
   margin-left: 0px;
+  transition: transform 0.5s;
+}
+
+.nav_button_after:hover {
+  transform: scale(1.1);
 }
 
 .Button_inner {
@@ -41,18 +46,22 @@
 }
 
 .img_after_header {
-  width: 596.855px;
-  height: 622px;
+  width: 50%;
+  height: 680px;
+  bottom: 30%;
   position: absolute;
-  margin-left: 600px;
-  top: -3%;
+  margin-left: 670px;
+  /* top: -3%; */
 }
 
 .card_after {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
   margin-top: 101px;
-  gap: 38px;
+  /* gap: 38px; */
   z-index: 1;
 }
 

@@ -1,12 +1,11 @@
 .footer_div {
   display: flex;
   font-family: "Poppins";
-  width: 80%;
-  /* padding: 50px 130px; */
-  flex-direction: column;
-  align-items: flex-start;
+  width: 90%;
   margin: auto;
-  margin-left: 80px;
+  flex-direction: column;
+ margin-top: 5%;
+
 }
 
 .footer_logo {
@@ -36,7 +35,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  margin-right: 114px;
+  width: 100%;
+  margin: auto;
 }
 
 .headings {
@@ -121,9 +121,9 @@
 
 .img_arrow {
   position: absolute;
-  right: 0.5rem;
-  top: 0.7rem;
-  width: 67px;
+  right: 4.7rem;
+  top: 0.5rem;
+  width: 12.8%;
 }
 
 svg {

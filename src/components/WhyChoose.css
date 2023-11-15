@@ -1,30 +1,26 @@
 .why_container {
   position: relative;
   font-family: "Poppins";
-  /* display: flex;
-  flex-direction: row; */
-  padding: 100px 0px 120px;
-  margin: auto;
+  padding: 100px 0px;
   width: 90%;
+  margin: auto;
+  
   align-items: flex-start;
-  /* margin-left: -2%; */
 }
 
 .why_img {
   position: absolute;
   margin-left:70%;
-  margin-top: -47%;
+  bottom: 13%;
   width: 30%;
+  height: 560px;
 }
 
 .why_content {
   display: flex;
   flex-direction: column;
-  /* width: 571px; */
-  
   padding-bottom: 0px;
-  flex-direction: column;
-  width: 90%;
+  width: 60%;
 }
 
 .why_us {
@@ -48,11 +44,8 @@
   margin-top: 2%;
 }
 
-ul {
-  margin-left: -2%;
-}
 .why_li {
-  width: 70%;
+  width: 100%;
   height: 70px;
 }
 

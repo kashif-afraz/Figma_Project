@@ -83,38 +83,40 @@
 
 .services_card_img0 {
   position: absolute;
-  left: 136%;
+  left: 205%;
 }
 
 .services_card_img1 {
   position: absolute;
-  left: 112%;
+  left: 167%;
 }
 
 .services_card_img2 {
   position: absolute;
-  left: 96%
+  left: 145%
 }
 
 .services_card_img3 {
   position: absolute;
-  left: 66%;
+  left: 98%;
 }
 
 .services_card_img4 {
   position: absolute;
-  width: 110%;
-  left: 98%;
-  top: 20%;
+  left: 130%;
 }
 
 .service_btn {
   position: absolute;
   top: 14.5rem;
-  width: 68%;
+  width: 80%;
   height: 13%;
   border-radius: 20px;
   background: #fff;
+  transition: transform 0.5s;
+}
+.service_btn:hover{
+  transform: scale(1.1);
 }
 
 .service_button_contetnt {

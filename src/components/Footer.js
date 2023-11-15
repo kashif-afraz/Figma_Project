@@ -71,7 +71,9 @@ const Footer = () => {
           <span className="content">Stay Updated with our Latest News </span>
           <div className="input_field">
             <input className="email" placeholder={placeholder} />
-            <img className="img_arrow" type="button" src={EmailImg} />
+            <a href="">
+            <img className="img_arrow" type="submit" src={EmailImg} />
+            </a>
           </div>
           <span className="headings">Follow Us</span>
           <div className="icons">
