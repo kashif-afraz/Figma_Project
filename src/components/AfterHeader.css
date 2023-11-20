@@ -119,31 +119,31 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    width: 60%;
+    width: 50%;
   }
   .box {
     color: #1e1e1e;
-    font-size: 24px;
+    font-size: 20px;
     width: 100%;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
     z-index: 1;
   } 
 
   .img_after_header {
     width: 50%;
-    height: 30%;
+    height: 20%;
     position: absolute;
     margin-left: 190px;
-    top: -4%;
+    bottom: 82%;;
   }
 
   .Button_inner {
     display: flex;
     padding: 10px 30px;
     height: 75px;
-    width: 80%;
+    width: 100%;
   }
   .arrow_img{
     margin-top:15%

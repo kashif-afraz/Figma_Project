@@ -81,17 +81,25 @@ li::marker {
 
   .why_content {
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .why_us{
+    font-size: 18px;
+
+    margin:auto;
   }
 
   .why_heading {
     font-size: 16px;
-    font-weight: 700;
-    width: 300%;
+    text-align: center;
+    width: 100%;
+    margin: auto;
   }
 
   ul {
-    margin-left: -2%;
+    margin: auto;
     margin-top: 60%;
   }
 
@@ -117,10 +125,12 @@ li::marker {
 
 
   .why_img {
-    width: 15%;
-    bottom: 73%;
+    width: 80%;
+    bottom: 60%;
     /* left: 15%; */
-    right: 80%;
+    height: 20%;
+    right: 10%;
     position: absolute;
+    margin-bottom: 4%;
   }
 }

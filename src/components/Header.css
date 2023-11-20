@@ -89,7 +89,6 @@ a {
   nav {
     display: flex;
     flex-direction: column;
-    height: -10%;
     align-items: flex-start;
     font-family: "Poppins";
   }
@@ -119,9 +118,7 @@ a {
   }
 
   .drop_down_button {
-    /* visibility: visible; */
+
     display: block;
-    /* display: none; */
-    /* margin-bottom: -30%; */
   }
 }

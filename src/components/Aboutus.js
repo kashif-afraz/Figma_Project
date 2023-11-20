@@ -21,10 +21,12 @@ const Aboutus = () => {
             At 57Dentcare, our mission is to promote optimal oral health and
             create lasting, confident smiles.{" "}
           </div>
+          
           <button className="about_button">
             <span className="button_span">Learn More</span>{" "}
-            <img className="arrow_img" src={arrowImg} />{" "}
+            <img id="arrow_about" className="arrow_img" src={arrowImg} />{" "}
           </button>
+          
         </div>
       </div>
     </div>

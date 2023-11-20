@@ -1,4 +1,5 @@
 .appointment_container {
+  font-family: 'Poppins' ;
   display: flex;
   width: 90%;
   margin: auto;
@@ -6,6 +7,7 @@
   align-items: flex-start;
   border-radius: 30px;
 }
+
 
 .appointment_card_container {
   display: flex;
@@ -115,7 +117,7 @@
     /* justify-content: center; */
     width: 90%;
     margin: auto;
-    height: 680px;
+    height: 655px;
   }
   .appointment_card_img {
     width: 30%;
@@ -127,7 +129,9 @@
   .appointment_form{
     width: 100%;
     margin: auto;
+    gap:2%;
   }
+
   
   .appointment_heading {
     font-size: 26px;
@@ -137,10 +141,11 @@
     flex-direction: column;
     width: 100%;
     margin: auto;
+    gap: 0%;
   }
   .appointment_input {
     width: 50%;
-    height: 50%;
+    height: 40%;
     margin: auto;
     border-radius: 30px;
     border: 1px solid #939394;
@@ -149,14 +154,13 @@
   }
 
   .appointment_btn {
-    width: 70%;
-    height: 400px;
-    margin-top: -10%;
+    width: 98%;
+    height: 54px;
   }
 
   .appointment_arrow_img {
-    left: 11.5rem;
-    top:1rem;
+    left: 18.5rem;
+    top:0.5rem;
   }
 
   .appointment_btn_content{
@@ -164,5 +168,6 @@
   font-weight: 600;
   margin-left: -10%;
   }
+
   
 }

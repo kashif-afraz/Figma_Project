@@ -13,10 +13,10 @@ const Appointment = () => {
             <input className="appointment_input" placeholder="Full Name*" />
             <input
               className="appointment_input"
-              placeholder="I'm interested in*"
+              placeholder="Last Name*"
             />
           </div>
-
+      
           <div className="appointment_form_input">
             <input className="appointment_input" placeholder="Full Name*" />
             <input
